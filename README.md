@@ -66,3 +66,19 @@ Apri quindi una Pull Request verso `main`, controlla la differenza dei file e ve
 ## Crediti e limiti
 
 Il sito ha finalità didattiche e non rappresenta un portale turistico ufficiale. Alcune immagini e i font vengono caricati da siti esterni; disponibilità, diritti d'uso e attribuzioni devono essere controllati prima di una pubblicazione pubblica. Il progetto non include backend, account o raccolta di dati tramite moduli.
+
+## Gruppo e tracciamento TPSIT
+
+- **PM / sviluppatore C:** [EntityZk](https://github.com/EntityZk)
+- **Sviluppatore A:** [Tomino](https://github.com/Tomino)
+- **Sviluppatore B:** [amadeiaca-creator](https://github.com/amadeiaca-creator)
+
+### Issue di lavoro
+
+- [Issue #2 — Sezione A: Località](https://github.com/EntityZk/Discover_Lago/issues/2) — assegnazione prevista: sviluppatore A.
+- [Issue #3 — Sezione B: Esperienze ed escursioni](https://github.com/EntityZk/Discover_Lago/issues/3) — assegnata a sviluppatore B.
+- [Issue #4 — Sezione C: Guida pratica](https://github.com/EntityZk/Discover_Lago/issues/4) — assegnata al PM / sviluppatore C.
+
+### Stato della consegna
+
+Questa sezione documenta la preparazione del repository, non sostituisce le prove del lavoro svolto da ciascun componente. I commit, le PR, le revisioni, le correzioni e il conflitto di merge vanno registrati solo dopo che sono realmente avvenuti. Le schermate del conflitto devono essere salvate in `documentazione/` durante l'esercitazione reale; non sono ancora attestate da questo documento.

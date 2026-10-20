@@ -1,80 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portale turistico ufficiale del Lago Maggiore: località, escursioni, alloggi e informazioni utili.">
-    <title>Discover Lago Maggiore — Portale Turistico</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Scopri il Lago Maggiore: località, escursioni, esperienze all'aperto e consigli pratici per organizzare il tuo viaggio.">
+  <meta name="theme-color" content="#062f39">
+  <title>Discover Lago — Scopri il Lago Maggiore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header class="hero hero--home">
-        <h1>Discover Lago Maggiore</h1>
-        <p>Benvenuti nel portale turistico ufficiale del Lago Maggiore</p>
-    </header>
-
-    <nav aria-label="Navigazione principale">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="localita.html">Località</a>
-        <a href="escursioni.html">Escursioni</a>
-        <a href="alloggi_info.html">Alloggi e Info</a>
-    </nav>
-
-    <main>
-        <h2 class="page-title">Esplora le meraviglie del Lago Maggiore</h2>
-        <p class="page-subtitle">Scopri panorami mozzafiato, borghi storici, passeggiate e i migliori alloggi sul lago.</p>
-
-        <div class="card-container">
-            <article class="card">
-                <div class="card-icon" aria-hidden="true">📍</div>
-                <h3>Località e Luoghi da Visitare</h3>
-                <p>Visita Stresa, le Isole Borromee, Verbania, Cannobio e Luino.</p>
-                <a href="localita.html">Scopri le località <span aria-hidden="true">→</span></a>
-            </article>
-
-            <article class="card">
-                <div class="card-icon" aria-hidden="true">🥾</div>
-                <h3>Escursioni e Attività</h3>
-                <p>Trekking, tour in barca, funivie ed esperienze all'aperto.</p>
-                <a href="escursioni.html">Vedi le escursioni <span aria-hidden="true">→</span></a>
-            </article>
-
-            <article class="card">
-                <div class="card-icon" aria-hidden="true">🏨</div>
-                <h3>Alloggi e Informazioni Utili</h3>
-                <p>Hotel, campeggi, trasporti e consigli pratici per la tua visita.</p>
-                <a href="alloggi_info.html">Info e Alloggi <span aria-hidden="true">→</span></a>
-            </article>
-        </div>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <div>
-                <h4>Discover Lago</h4>
-                <p>Il portale turistico per scoprire il Lago Maggiore.</p>
-            </div>
-            <div>
-                <h4>Sezioni</h4>
-                <a href="index.html">Home</a>
-                <a href="localita.html">Località</a>
-                <a href="escursioni.html">Escursioni</a>
-                <a href="alloggi_info.html">Alloggi e Info</a>
-            </div>
-            <div>
-                <h4>Contatti</h4>
-                <a href="mailto:info@discoverlago.it">info@discoverlago.it</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Cookie Policy</a>
-            </div>
-        </div>
-        <p class="footer-copy">&copy; 2026 Discover Lago Maggiore — Progetto TPSIT 5AI</p>
-    </footer>
-
+<a class="skip-link" href="#contenuto">Salta al contenuto</a>
+<header class="hero hero--home">
+  <div class="hero-content">
+    <span class="eyebrow">Lago Maggiore · Italia</span>
+    <h1>Il lago, <br>la tua prossima storia.</h1><p>Un viaggio tra borghi senza tempo, acque luminose e sentieri che aprono nuovi orizzonti.</p><div class="hero-actions"><a class="button" href="localita.html">Esplora le località <span aria-hidden="true">↗</span></a><a class="button button--ghost" href="escursioni.html">Trova la tua esperienza</a></div>
+  </div>
+</header>
+<div class="site-nav">
+  <a class="brand" href="index.html" aria-label="Discover Lago — pagina iniziale"><span class="brand-mark" aria-hidden="true"><span>DL</span></span>Discover Lago</a>
+  <nav aria-label="Navigazione principale">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="localita.html" >Località</a>
+    <a href="escursioni.html" >Esperienze</a>
+    <a href="alloggi_info.html" >Guida pratica</a>
+  </nav>
+</div>
+<main id="contenuto">
+  <section aria-labelledby="intro-title">
+    <div class="section-heading">
+      <span class="eyebrow">Il piacere di scoprire</span>
+      <h2 id="intro-title">Un solo lago.<br>Infinite possibilità.</h2>
+      <p>Tra la quiete dell'acqua e le cime delle Alpi, ogni sponda racconta una storia diversa. Scegli da dove cominciare.</p>
+    </div>
+    <div class="card-container">
+      <article class="card"><div class="card-icon" aria-hidden="true">⌖</div><h3>Borghi e località</h3><p>Scopri passeggiate sul lungolago, centri storici, giardini e scorci da fotografare.</p><a class="card-link" href="localita.html">Esplora i luoghi <span aria-hidden="true">→</span></a></article>
+      <article class="card"><div class="card-icon" aria-hidden="true">↟</div><h3>Natura ed esperienze</h3><p>Dal trekking panoramico alle gite in battello: trova l'attività adatta al tuo ritmo.</p><a class="card-link" href="escursioni.html">Vivi il territorio <span aria-hidden="true">→</span></a></article>
+      <article class="card"><div class="card-icon" aria-hidden="true">✳</div><h3>Organizza la visita</h3><p>Informazioni essenziali su alloggi, trasporti e periodo ideale per partire.</p><a class="card-link" href="alloggi_info.html">Prepara il viaggio <span aria-hidden="true">→</span></a></article>
+    </div>
+  </section>
+  <section class="feature-band" aria-labelledby="feature-title">
+    <div><h2 id="feature-title">Il bello è prendersi il proprio tempo.</h2><p>Una passeggiata al tramonto, un battello all'orizzonte o un sentiero tra i boschi: il Lago Maggiore si scopre un momento alla volta.</p></div>
+    <a class="button" href="escursioni.html">Trova ispirazione <span aria-hidden="true">↗</span></a>
+  </section>
+</main>
+<footer>
+  <div class="footer-content">
+    <div class="footer-brand">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><span>DL</span></span>Discover Lago</a>
+      <p>Una guida digitale per scoprire il Lago Maggiore con curiosità, rispetto e voglia di esplorare.</p>
+    </div>
+    <div><h2>Esplora</h2><div class="footer-links"><a href="index.html">Home</a><a href="localita.html">Località</a><a href="escursioni.html">Esperienze</a><a href="alloggi_info.html">Guida pratica</a></div></div>
+    <div><h2>Il progetto</h2><div class="footer-links"><a href="README.md">Documentazione</a><a href="privacy.html">Privacy e crediti</a><a href="mailto:info@discoverlago.it">Contatti</a></div></div>
+  </div>
+  <div class="footer-bottom">© 2026 Discover Lago Maggiore · Progetto didattico TPSIT · Realizzato con HTML5 e CSS3</div>
+</footer>
 </body>
 </html>

@@ -13,9 +13,9 @@ Il progetto è composto da **quattro pagine HTML interconnesse**:
 | Pagina | Contenuto |
 |--------|-----------|
 | **`index.html`** | Home page con presentazione del progetto e navigazione generale. |
-| **`sezione-a.html`** | Le **5 località principali** del Lago Maggiore: Stresa, Verbania, Cannobio, Luino e Arona. |
-| **`sezione-b.html`** | **4 attività ed escursioni** da provare: Mottarone, tour in battello, Val Grande e sport acquatici. |
-| **`sezione-c.html`** | **Informazioni pratiche**: alloggi, trasporti e consigli di viaggio. |
+| **`localita.html`** | Le **5 località principali** del Lago Maggiore: Stresa, Verbania, Cannobio, Luino e Arona. |
+| **`escursioni.html`** | **4 attività ed escursioni** da provare: Mottarone, tour in battello, Val Grande e sport acquatici. |
+| **`alloggi_info.html`** | **Informazioni pratiche**: alloggi, trasporti e consigli di viaggio. |
 
 Ogni pagina è collegata alle altre tramite un menu di navigazione condiviso, per garantire un'esperienza utente fluida.
 
@@ -39,9 +39,9 @@ Il progetto è stato sviluppato simulando un **ambiente di lavoro aziendale**, c
 
 2. **Sviluppo su branch separati**
    - Ogni sviluppatore ha lavorato su un branch dedicato:
-     - `sezione-a` → località principali
-     - `sezione-b` → attività ed escursioni
-     - `sezione-c` → informazioni pratiche
+     - `localita.html` → località principali
+     - `escursioni.html` → attività ed escursioni
+     - `alloggi_info.html` → informazioni pratiche
 
 3. **Pull Request e revisione**
    - Il contenuto di ciascun branch è stato pubblicato tramite **Pull Request**, sottoposto a revisione e corretto in base ai feedback ricevuti.

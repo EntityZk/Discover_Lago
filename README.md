@@ -1,51 +1,68 @@
-# 🌊 Discover Lago
+# Discover Lago Maggiore
 
-**Discover Lago** è una guida turistica web dedicata al **Lago Maggiore**, sviluppata in **HTML5** e **CSS3** come progetto per il laboratorio di **TPSIT**.
+> Guida turistica dimostrativa dedicata alle località, alle esperienze e alle informazioni pratiche del Lago Maggiore.
 
-Il sito offre una panoramica completa delle bellezze del lago, delle attività all'aria aperta e delle informazioni pratiche per organizzare una visita, con un'interfaccia semplice, responsive e facilmente navigabile.
+Discover Lago è un progetto didattico di **TPSIT – classe 5ª superiore**. Il sito usa HTML semantico e CSS moderno per offrire una navigazione chiara, responsive e accessibile, senza framework JavaScript o dipendenze di build.
 
----
+## Pagine
 
-## 📄 Struttura del sito
+| File | Descrizione |
+| --- | --- |
+| `index.html` | Home page e accesso alle sezioni |
+| `localita.html` | Stresa, Verbania, Cannobio, Luino e Arona |
+| `escursioni.html` | Idee per trekking, battelli, natura e sport d'acqua |
+| `alloggi_info.html` | Alloggi, trasporti e consigli di viaggio |
+| `privacy.html` | Note sul progetto, contenuti esterni e privacy |
+| `style.css` | Sistema grafico condiviso e responsive |
 
-Il progetto è composto da **quattro pagine HTML interconnesse**:
+## Tecnologie
 
-| Pagina | Contenuto |
-|--------|-----------|
-| **`index.html`** | Home page con presentazione del progetto e navigazione generale. |
-| **`localita.html`** | Le **5 località principali** del Lago Maggiore: Stresa, Verbania, Cannobio, Luino e Arona. |
-| **`escursioni.html`** | **4 attività ed escursioni** da provare: Mottarone, tour in battello, Val Grande e sport acquatici. |
-| **`alloggi_info.html`** | **Informazioni pratiche**: alloggi, trasporti e consigli di viaggio. |
+- **HTML5**: struttura semantica, titoli gerarchici, metadati e attributi accessibili.
+- **CSS3**: custom properties, Grid, Flexbox, layout responsive, stati focus e rispetto di `prefers-reduced-motion`.
+- **Git e GitHub**: branch, commit, pull request e revisione delle modifiche.
+- **GitHub Pages** (facoltativo): il progetto può essere pubblicato come sito statico dalla root del branch scelto.
 
-Ogni pagina è collegata alle altre tramite un menu di navigazione condiviso, per garantire un'esperienza utente fluida.
+## Avvio locale
 
----
+Non è necessario installare pacchetti.
 
-## 🛠️ Tecnologie utilizzate
+1. Scarica o clona il repository.
+2. Apri `index.html` nel browser oppure usa l'estensione **Live Server** di Visual Studio Code.
+3. Naviga tra le pagine dal menu principale.
 
-- **HTML5** — struttura semantica delle pagine
-- **CSS3** — stile, layout e responsività
-- **Git & GitHub** — versionamento e collaborazione
-- **GitHub Issues & Pull Requests** — gestione del flusso di lavoro
+## Workflow Git consigliato
 
----
+Per mantenere `main` stabile, sviluppa le nuove funzionalità in branch dedicati e proponi le modifiche tramite pull request.
 
-## 🔀 Workflow Git/GitHub
+```bash
+git switch main
+git pull origin main
+git switch -c feature/nome-modifica
+# modifica e verifica i file
+git add .
+git commit -m "feat: descrizione breve"
+git push -u origin feature/nome-modifica
+```
 
-Il progetto è stato sviluppato simulando un **ambiente di lavoro aziendale**, con ruoli e processi tipici di un team di sviluppo software:
+Apri quindi una Pull Request verso `main`, controlla la differenza dei file e verifica la navigazione su desktop e mobile prima del merge.
 
-1. **Setup iniziale**
-   - Il **Project Manager** ha creato il repository su GitHub e configurato le **Issues** per tracciare le attività da svolgere.
+### Convenzione per i commit
 
-2. **Sviluppo su branch separati**
-   - Ogni sviluppatore ha lavorato su un branch dedicato:
-     - `localita.html` → località principali
-     - `escursioni.html` → attività ed escursioni
-     - `alloggi_info.html` → informazioni pratiche
+- `feat:` nuova funzionalità o sezione
+- `style:` miglioramenti grafici e formattazione
+- `fix:` correzione di un problema
+- `docs:` documentazione
+- `refactor:` riorganizzazione del codice senza cambiare il comportamento
 
-3. **Pull Request e revisione**
-   - Il contenuto di ciascun branch è stato pubblicato tramite **Pull Request**, sottoposto a revisione e corretto in base ai feedback ricevuti.
+## Controlli prima della consegna
 
-4. **Gestione dei conflitti**
-   - È stato volutamente generato e risolto un **conflitto di fusione su `index.html`**, per testare la gestione di modifiche concorrenti sul ramo `main`.
+- Tutti i collegamenti interni portano a file esistenti.
+- Ogni pagina ha un titolo e una descrizione specifici.
+- Le immagini hanno testi alternativi significativi e caricamento differito quando opportuno.
+- La navigazione è utilizzabile da tastiera e l'utente può saltare direttamente al contenuto.
+- Layout e animazioni rispettano gli schermi piccoli e le preferenze di movimento ridotto.
+- Le informazioni su orari, servizi e disponibilità sono verificate su fonti ufficiali prima di essere usate per organizzare una visita.
 
+## Crediti e limiti
+
+Il sito ha finalità didattiche e non rappresenta un portale turistico ufficiale. Alcune immagini e i font vengono caricati da siti esterni; disponibilità, diritti d'uso e attribuzioni devono essere controllati prima di una pubblicazione pubblica. Il progetto non include backend, account o raccolta di dati tramite moduli.

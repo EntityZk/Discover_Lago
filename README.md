@@ -49,11 +49,3 @@ Il progetto è stato sviluppato simulando un **ambiente di lavoro aziendale**, c
 4. **Gestione dei conflitti**
    - È stato volutamente generato e risolto un **conflitto di fusione su `index.html`**, per testare la gestione di modifiche concorrenti sul ramo `main`.
 
----
-
-## 🚀 Come eseguire il progetto
-
-1. Clonare il repository:
-
-   ```bash
-   git clone https://github.com/<utente>/discover-lago.git
